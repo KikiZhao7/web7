@@ -1,0 +1,42 @@
+# ---- 依赖 ----
+node_modules/
+backend/node_modules/
+
+# ---- 构建产物 ----
+.next/
+.vite/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---- 环境变量与密钥（切勿上传）----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ---- 日志 ----
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 临时文件 ----
+*.tmp
+*.temp
+.cache/
+
+# ---- 说明 ----
+# data/users.json 按用户要求保留上传（含用户数据，若仓库为公开请注意隐私风险）
+# .env.local 已排除；如需他人本地运行，请另建 .env.example 列出变量名（不含真实值）
